@@ -23,20 +23,20 @@ Track initiative order, HP, status conditions, elemental infusions, and scenario
 
 ## Screenshots
 
-> *Mobile-first dark UI with glassmorphism design.*
+> _Mobile-first dark UI with glassmorphism design._
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | [React 19](https://react.dev/) + [Vite 8](https://vite.dev/) |
-| Styling | [Tailwind CSS v4](https://tailwindcss.com/) |
-| State | [Zustand](https://zustand-demo.pmnd.rs/) |
-| Animation | [Framer Motion](https://www.framer.com/motion/) |
-| Icons | [Lucide React](https://lucide.dev/) |
-| PWA | [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) + Workbox |
+| Layer     | Technology                                                           |
+| --------- | -------------------------------------------------------------------- |
+| Framework | [React 19.2.5](https://react.dev/) + [Vite 8.0.8](https://vite.dev/) |
+| Styling   | [Tailwind CSS 4.2.2](https://tailwindcss.com/)                       |
+| State     | [Zustand 5.0.12](https://zustand-demo.pmnd.rs/)                      |
+| Animation | [Framer Motion 12.38.0](https://www.framer.com/motion/)              |
+| Icons     | [Lucide React 1.8.0](https://lucide.dev/)                            |
+| PWA       | [vite-plugin-pwa 1.2.0](https://vite-pwa-org.netlify.app/) + Workbox |
 
 ---
 
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [https://gloomtracker.vercel.app](https://gloomtracker.vercel.app) in your browser.
 
 ### Build for Production
 
@@ -77,10 +77,13 @@ The production build includes the full PWA service worker and offline caching.
 ## PWA Installation
 
 ### Android / Desktop (Chrome, Edge)
+
 An **Install** banner will appear at the bottom of the Setup screen. Tap it to install directly.
 
 ### iOS (Safari)
+
 Tap the **How to** button in the install banner for step-by-step instructions:
+
 1. Tap the **Share** button in Safari
 2. Scroll down and tap **Add to Home Screen**
 3. Tap **Add**
@@ -90,17 +93,22 @@ Tap the **How to** button in the install banner for step-by-step instructions:
 ## Data & Customization
 
 ### Scenarios
+
 Edit `src/data/scenarios.json` to add more scenario templates. Each scenario defines monster groups with count scaling per player count (2–4 players).
 
 ### Monsters
+
 Edit `src/data/monsters.json` to add monsters. Each entry includes:
+
 - HP, Move, Attack, Range stats for levels 0–7 (normal & elite)
 - A `lucide-react` icon key for display
 
 ### Characters
+
 Edit `src/data/characters.json` to add character classes with HP progressions and emoji icons.
 
 ### Statuses
+
 Edit `src/data/statuses.json` to customize status conditions with name, emoji icon, type (harmful/beneficial), and description.
 
 ---
@@ -139,10 +147,16 @@ src/
 
 ---
 
+## Future Development
+
+I am actively open to recommendations, feature requests, and feedback for future development! If you have ideas on how to improve the app or additional tools you'd like to see, please feel free to open an issue or start a discussion.
+
+---
+
 ## License
 
 MIT — feel free to use, modify, and share.
 
 ---
 
-> *Gloom Tracker is an unofficial companion app and is not affiliated with Cephalofair Games or the Gloomhaven brand.*
+> _Gloom Tracker is an unofficial companion app and is not affiliated with Cephalofair Games or the Gloomhaven brand._
