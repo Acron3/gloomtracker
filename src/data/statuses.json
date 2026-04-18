@@ -1,0 +1,112 @@
+[
+  {
+    "id": "poison",
+    "name": "Poison",
+    "icon": "🧪",
+    "color": "#7b2d8b",
+    "type": "harmful",
+    "trigger": "on_attack",
+    "description": "+1 damage on all attacks against this entity",
+    "removeOn": "heal"
+  },
+  {
+    "id": "wound",
+    "name": "Wound",
+    "icon": "🩸",
+    "color": "#8b1a1a",
+    "type": "harmful",
+    "trigger": "start_turn",
+    "description": "Suffer 1 damage at start of turn",
+    "removeOn": "heal"
+  },
+  {
+    "id": "stun",
+    "name": "Stun",
+    "icon": "⚡",
+    "color": "#f59e0b",
+    "type": "harmful",
+    "trigger": "start_turn",
+    "description": "Cannot perform any actions this turn",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "immobilize",
+    "name": "Immobilize",
+    "icon": "🔒",
+    "color": "#6b7280",
+    "type": "harmful",
+    "trigger": "on_move",
+    "description": "Cannot perform any move actions",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "disarm",
+    "name": "Disarm",
+    "icon": "🛡️",
+    "color": "#78350f",
+    "type": "harmful",
+    "trigger": "on_attack",
+    "description": "Cannot perform any attack actions",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "muddle",
+    "name": "Muddle",
+    "icon": "💫",
+    "color": "#64748b",
+    "type": "harmful",
+    "trigger": "passive",
+    "description": "Disadvantage on all attacks",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "curse",
+    "name": "Curse",
+    "icon": "💀",
+    "color": "#1e1b4b",
+    "type": "harmful",
+    "trigger": "on_draw",
+    "description": "Add a CURSE card to attack modifier deck",
+    "removeOn": "on_draw"
+  },
+  {
+    "id": "strengthen",
+    "name": "Strengthen",
+    "icon": "💪",
+    "color": "#15803d",
+    "type": "helpful",
+    "trigger": "passive",
+    "description": "Advantage on all attacks",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "invisible",
+    "name": "Invisible",
+    "icon": "👻",
+    "color": "#a8b5c8",
+    "type": "helpful",
+    "trigger": "passive",
+    "description": "Monsters cannot target this entity",
+    "removeOn": "end_turn"
+  },
+  {
+    "id": "bless",
+    "name": "Bless",
+    "icon": "✨",
+    "color": "#fbbf24",
+    "type": "helpful",
+    "trigger": "on_draw",
+    "description": "Add a BLESS card to attack modifier deck (2x damage)",
+    "removeOn": "on_draw"
+  },
+  {
+    "id": "regenerate",
+    "name": "Regenerate",
+    "icon": "💚",
+    "color": "#059669",
+    "type": "helpful",
+    "trigger": "end_turn",
+    "description": "Heal 1 HP at end of turn",
+    "removeOn": null
+  }
+]

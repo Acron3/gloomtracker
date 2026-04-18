@@ -1,0 +1,8 @@
+[
+  { "id": "fire",  "name": "Fire",  "icon": "🔥", "color": "#e85d04", "glowClass": "glow-fire"  },
+  { "id": "ice",   "name": "Ice",   "icon": "❄️", "color": "#48cae4", "glowClass": "glow-ice"   },
+  { "id": "wind",   "name": "Wind",   "icon": "🌪️", "color": "#90e0ef", "glowClass": "glow-wind"   },
+  { "id": "earth", "name": "Earth", "icon": "🌿", "color": "#52b788", "glowClass": "glow-earth" },
+  { "id": "light", "name": "Light", "icon": "☀️", "color": "#ffd166", "glowClass": "glow-light" },
+  { "id": "dark",  "name": "Dark",  "icon": "🌑", "color": "#9b59b6", "glowClass": "glow-dark"  }
+]

@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@theme {
+  /* Gloomhaven dark palette */
+  --color-void: #0a0c10;
+  --color-void-2: #0f1219;
+  --color-card: #161b25;
+  --color-card-2: #1e2535;
+  --color-surface: #252d3d;
+  --color-border: #2e3850;
+
+  /* Brand colors */
+  --color-gold: #c9a84c;
+  --color-gold-light: #e8c96a;
+  --color-gold-dim: #7a6028;
+  --color-blood: #8b1a1a;
+  --color-blood-light: #c0392b;
+  --color-safe: #2d6a4f;
+  --color-safe-light: #40916c;
+  --color-mana: #4a3a8c;
+  --color-mana-light: #6c5ce7;
+  --color-ash: #6b7280;
+  --color-frost: #e2e8f0;
+
+  /* Elements */
+  --color-fire: #e85d04;
+  --color-ice: #48cae4;
+  --color-wind: #90e0ef;
+  --color-earth: #52b788;
+  --color-light: #ffd166;
+  --color-dark: #9b59b6;
+
+  /* Typography */
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* ─────────────────────────────────────── */
+/*  Base                                   */
+/* ─────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: #030406;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #0a0c10;
+  transform: translateZ(0);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.8);
+  border-left: 1px solid rgba(46, 56, 80, 0.5);
+  border-right: 1px solid rgba(46, 56, 80, 0.5);
+  overflow-x: hidden;
+}
+
+/* ─────────────────────────────────────── */
+/*  Custom scrollbar                       */
+/* ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2e3850; border-radius: 9999px; }
+
+/* ─────────────────────────────────────── */
+/*  Element glow utilities                 */
+/* ─────────────────────────────────────── */
+.glow-fire   { box-shadow: 0 0 12px 2px #e85d04aa; }
+.glow-ice    { box-shadow: 0 0 12px 2px #48cae4aa; }
+.glow-wind   { box-shadow: 0 0 12px 2px #90e0efaa; }
+.glow-earth  { box-shadow: 0 0 12px 2px #52b788aa; }
+.glow-light  { box-shadow: 0 0 12px 2px #ffd166aa; }
+.glow-dark   { box-shadow: 0 0 12px 2px #9b59b6aa; }
+.glow-gold   { box-shadow: 0 0 16px 4px #c9a84c88; }
+
+/* ─────────────────────────────────────── */
+/*  Glassmorphism card                     */
+/* ─────────────────────────────────────── */
+.glass {
+  background: rgba(22, 27, 37, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(46, 56, 80, 0.6);
+}
+
+.glass-light {
+  background: rgba(30, 37, 53, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(46, 56, 80, 0.4);
+}
+
+/* ─────────────────────────────────────── */
+/*  HP bar animation                       */
+/* ─────────────────────────────────────── */
+.hp-bar-fill {
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─────────────────────────────────────── */
+/*  Status badge pulse                     */
+/* ─────────────────────────────────────── */
+@keyframes badge-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(0.95); }
+}
+
+.badge-harmful {
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────── */
+/*  Turn active pulse                      */
+/* ─────────────────────────────────────── */
+@keyframes turn-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.5); }
+  50% { box-shadow: 0 0 0 6px rgba(201, 168, 76, 0); }
+}
+.turn-active {
+  animation: turn-pulse 1.5s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────── */
+/*  Skeleton shimmer                       */
+/* ─────────────────────────────────────── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #1e2535 25%, #252d3d 50%, #1e2535 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* ─────────────────────────────────────── */
+/*  Hide number spinners                   */
+/* ─────────────────────────────────────── */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* ─────────────────────────────────────── */
+/*  Fonts                                  */
+/* ─────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');

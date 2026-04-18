@@ -1,0 +1,164 @@
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import MonsterIcon from './MonsterIcon';
+import monstersData from '../data/monsters.json';
+import useGameStore from '../store/gameStore';
+
+export default function SpawnModal({ onClose }) {
+  const scenarioLevel = useGameStore((s) => s.scenarioLevel);
+  const spawnEntity = useGameStore((s) => s.spawnEntity);
+  const entities = useGameStore((s) => s.entities);
+  const [selected, setSelected] = useState(null);
+  const [normalCount, setNormalCount] = useState(0);
+  const [eliteCount, setEliteCount] = useState(0);
+  const [customInitiative, setCustomInitiative] = useState(99);
+  const [search, setSearch] = useState('');
+
+  const filtered = monstersData.filter((m) =>
+    m.name.toLowerCase().includes(search.toLowerCase())
+  );
+
+  const getStats = (m, elite) => {
+    const lvl = String(Math.min(scenarioLevel, 7));
+    return m.levels[lvl]?.[elite ? 'elite' : 'normal'] || m.levels['1']?.[elite ? 'elite' : 'normal'];
+  };
+
+  const existingMonsters = selected 
+    ? entities.filter((e) => e.type === 'monster' && e.monsterType === selected.id && !e.isDead) 
+    : [];
+  const inUseStandees = existingMonsters.map(e => e.standeeNumber);
+  const existingInitiative = existingMonsters.length > 0 ? existingMonsters[0].initiative : null;
+
+  const handleSpawn = () => {
+    if (!selected || (normalCount === 0 && eliteCount === 0)) return;
+    
+    let inUse = [...inUseStandees];
+    const finalInitiative = existingInitiative !== null ? existingInitiative : customInitiative;
+    
+    const spawnOne = (isElite) => {
+      const stats = getStats(selected, isElite);
+      
+      let standeeNum = 1;
+      while (inUse.includes(standeeNum)) {
+        standeeNum++;
+      }
+      inUse.push(standeeNum);
+      
+      spawnEntity({
+        type: 'monster',
+        monsterType: selected.id,
+        monsterName: selected.name,
+        name: `${selected.name} ${isElite ? 'E' : ''}#${standeeNum}`,
+        icon: selected.icon,
+        standeeNumber: standeeNum,
+        isElite,
+        initiative: finalInitiative,
+        hp: stats.hp,
+        maxHp: stats.hp,
+      });
+    };
+    
+    for (let i = 0; i < eliteCount; i++) spawnOne(true);
+    for (let i = 0; i < normalCount; i++) spawnOne(false);
+    
+    onClose();
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 flex items-end justify-center bg-black/70 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ y: '100%' }}
+        animate={{ y: 0 }}
+        exit={{ y: '100%' }}
+        transition={{ type: 'spring', damping: 28, stiffness: 300 }}
+        onClick={(e) => e.stopPropagation()}
+        className="w-full max-w-lg glass border-t border-[#2e3850] rounded-t-2xl p-5
+                   flex flex-col max-h-[80dvh]"
+      >
+        <div className="w-10 h-1 rounded-full bg-[#2e3850] mx-auto mb-4" />
+        <h3 className="text-base font-bold text-gray-200 mb-3 font-display">Spawn Monster</h3>
+
+        <input
+          type="text"
+          placeholder="Search monster…"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="w-full px-3 py-2.5 rounded-xl bg-[#1e2535] border border-[#2e3850]
+                     text-sm text-gray-200 placeholder-gray-600 outline-none mb-3"
+        />
+
+        <div className="overflow-y-auto flex-1 flex flex-col gap-1.5 mb-3">
+          {filtered.map((m) => (
+            <button
+              key={m.id}
+              onClick={() => setSelected(m)}
+              className={`flex items-center gap-3 p-3 rounded-xl border text-left text-sm
+                transition-all touch-manipulation active:scale-[0.98]
+                ${selected?.id === m.id
+                  ? 'border-[#c9a84c] bg-[#c9a84c]/10 text-[#c9a84c]'
+                  : 'border-[#2e3850] bg-[#161b25] text-gray-300'}`}
+            >
+              <span className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0
+                bg-[#1e2535] border border-[#2e3850]">
+                <MonsterIcon icon={m.icon} className={`w-4 h-4 ${selected?.id === m.id ? 'text-gold' : 'text-blood-light'}`} />
+              </span>
+              <span className="font-medium">{m.name}</span>
+            </button>
+          ))}
+        </div>
+
+        {selected && (
+          <div className="flex flex-col gap-3 mb-4">
+            <div className="flex gap-2">
+              <div className="flex-1 flex items-center justify-between p-2 px-3 rounded-xl bg-[#1e2535] border border-[#2e3850]">
+                <span className="text-xs text-gray-400 font-medium">Normal</span>
+                <input
+                  type="number" min={0} max={20} value={normalCount}
+                  onChange={(e) => setNormalCount(Math.max(0, parseInt(e.target.value) || 0))}
+                  className="w-12 bg-transparent text-right text-white font-mono text-sm outline-none"
+                />
+              </div>
+              <div className="flex-1 flex items-center justify-between p-2 px-3 rounded-xl bg-[#1e2535] border border-[#c9a84c]/50">
+                <span className="text-xs text-[#c9a84c] font-medium">Elite</span>
+                <input
+                  type="number" min={0} max={20} value={eliteCount}
+                  onChange={(e) => setEliteCount(Math.max(0, parseInt(e.target.value) || 0))}
+                  className="w-12 bg-transparent text-right text-[#c9a84c] font-mono text-sm outline-none"
+                />
+              </div>
+            </div>
+            <div className={`flex items-center justify-between p-2 px-3 rounded-xl border ${existingInitiative !== null ? 'bg-black/40 border-[#2e3850]/50 opacity-60' : 'bg-[#1e2535] border-[#2e3850]'}`}>
+              <span className="text-xs text-gray-400 font-medium">
+                Initiative {existingInitiative !== null && '(Inherited)'}
+              </span>
+              <input
+                type="number" min={1} max={99}
+                value={existingInitiative !== null ? existingInitiative : customInitiative}
+                onChange={(e) => setCustomInitiative(Math.max(1, Math.min(99, parseInt(e.target.value) || 99)))}
+                disabled={existingInitiative !== null}
+                className="w-12 bg-transparent text-right text-white font-mono text-sm outline-none disabled:text-gray-500"
+              />
+            </div>
+          </div>
+        )}
+
+        <button
+          onClick={handleSpawn}
+          disabled={!selected || (normalCount === 0 && eliteCount === 0)}
+          className="w-full py-3.5 rounded-xl text-sm font-bold transition-all
+                     touch-manipulation active:scale-95
+                     disabled:opacity-40 disabled:cursor-not-allowed
+                     bg-[#c9a84c] text-black glow-gold"
+        >
+          Spawn {selected ? selected.name : '…'}
+        </button>
+      </motion.div>
+    </motion.div>
+  );
+}

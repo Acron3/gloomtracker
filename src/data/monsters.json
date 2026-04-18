@@ -1,0 +1,4190 @@
+[
+  {
+    "id": "bandit-guard",
+    "name": "Bandit Guard",
+    "icon": "Sword",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "bandit-archer",
+    "name": "Bandit Archer",
+    "icon": "Crosshair",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 2,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 11,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 13,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 5,
+          "range": 6
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 2,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "city-guard",
+    "name": "City Guard",
+    "icon": "Shield",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 9,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 17,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 19,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 22,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 18,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 24,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "city-archer",
+    "name": "City Archer",
+    "icon": "Target",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 10,
+          "move": 2,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 5
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 6
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 5,
+          "range": 6
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 7
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 6
+        },
+        "elite": {
+          "hp": 20,
+          "move": 4,
+          "attack": 6,
+          "range": 7
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 1,
+          "range": 4
+        },
+        "elite": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "cultist",
+    "name": "Cultist",
+    "icon": "FlameKindling",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 13,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 2,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 6,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "living-bones",
+    "name": "Living Bones",
+    "icon": "Skull",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 2,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 5,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "living-spirit",
+    "name": "Living Spirit",
+    "icon": "Ghost",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 4,
+          "move": 3,
+          "attack": 2,
+          "range": 2
+        },
+        "elite": {
+          "hp": 6,
+          "move": 4,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 2,
+          "range": 2
+        },
+        "elite": {
+          "hp": 7,
+          "move": 4,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 3,
+          "range": 2
+        },
+        "elite": {
+          "hp": 9,
+          "move": 4,
+          "attack": 4,
+          "range": 3
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 7,
+          "move": 4,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 12,
+          "move": 5,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 10,
+          "move": 4,
+          "attack": 4,
+          "range": 3
+        },
+        "elite": {
+          "hp": 14,
+          "move": 5,
+          "attack": 5,
+          "range": 4
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 11,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 16,
+          "move": 5,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 3,
+          "move": 3,
+          "attack": 1,
+          "range": 2
+        },
+        "elite": {
+          "hp": 4,
+          "move": 4,
+          "attack": 2,
+          "range": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "giant-viper",
+    "name": "Giant Viper",
+    "icon": "Zap",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 8,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 11,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 13,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 6,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 3,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 5,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "cave-bear",
+    "name": "Cave Bear",
+    "icon": "PawPrint",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 13,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 19,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 15,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 22,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 17,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 25,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 20,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 28,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 23,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 32,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "forest-imp",
+    "name": "Forest Imp",
+    "icon": "TreePine",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 3,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 4,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 4,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 5,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 6,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 7,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 8,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 6,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 2,
+          "move": 3,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 2,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "frost-demon",
+    "name": "Frost Demon",
+    "icon": "Snowflake",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 3,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 13,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 11,
+          "move": 4,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 15,
+          "move": 4,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 12,
+          "move": 4,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 14,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 20,
+          "move": 5,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 17,
+          "move": 4,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 23,
+          "move": 5,
+          "attack": 6,
+          "range": 6
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 7,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "flame-demon",
+    "name": "Flame Demon",
+    "icon": "Flame",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 4,
+          "range": 3
+        },
+        "elite": {
+          "hp": 14,
+          "move": 4,
+          "attack": 5,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 12,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 14,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 19,
+          "move": 4,
+          "attack": 6,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 16,
+          "move": 4,
+          "attack": 5,
+          "range": 4
+        },
+        "elite": {
+          "hp": 22,
+          "move": 5,
+          "attack": 6,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        },
+        "elite": {
+          "hp": 25,
+          "move": 5,
+          "attack": 7,
+          "range": 6
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "earth-demon",
+    "name": "Earth Demon",
+    "icon": "Mountain",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 10,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 17,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 20,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 23,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 19,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 26,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 22,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 30,
+          "move": 5,
+          "attack": 7,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "night-demon",
+    "name": "Night Demon",
+    "icon": "Moon",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 6,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 6,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 13,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 7,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 15,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 7,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 4,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 6,
+          "move": 5,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "wind-demon",
+    "name": "Wind Demon",
+    "icon": "Wind",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 4,
+          "move": 4,
+          "attack": 2,
+          "range": 2
+        },
+        "elite": {
+          "hp": 6,
+          "move": 5,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 5,
+          "move": 4,
+          "attack": 2,
+          "range": 2
+        },
+        "elite": {
+          "hp": 7,
+          "move": 5,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 6,
+          "move": 4,
+          "attack": 3,
+          "range": 2
+        },
+        "elite": {
+          "hp": 9,
+          "move": 5,
+          "attack": 4,
+          "range": 3
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 7,
+          "move": 5,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 6,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 5,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 12,
+          "move": 6,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 10,
+          "move": 5,
+          "attack": 4,
+          "range": 3
+        },
+        "elite": {
+          "hp": 14,
+          "move": 7,
+          "attack": 5,
+          "range": 4
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 12,
+          "move": 5,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 7,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 3,
+          "move": 4,
+          "attack": 1,
+          "range": 2
+        },
+        "elite": {
+          "hp": 4,
+          "move": 5,
+          "attack": 2,
+          "range": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "inox-guard",
+    "name": "Inox Guard",
+    "icon": "Axe",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 11,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 13,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 19,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 15,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 22,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 17,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 25,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 20,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 29,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 23,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 33,
+          "move": 5,
+          "attack": 7,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "inox-shaman",
+    "name": "Inox Shaman",
+    "icon": "Wand",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 11,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 13,
+          "move": 4,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 15,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 20,
+          "move": 5,
+          "attack": 6,
+          "range": 6
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 2,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 6,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "vermling-scout",
+    "name": "Vermling Scout",
+    "icon": "Rat",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 3,
+          "move": 3,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 4,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 3,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 5,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 4,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 6,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 5,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 6,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 7,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 8,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 6,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 2,
+          "move": 3,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 2,
+          "move": 4,
+          "attack": 1,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "ooze",
+    "name": "Ooze",
+    "icon": "Droplets",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 1,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 1,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 11,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 13,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 15,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 17,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 24,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 1,
+          "attack": 1,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "deep-terror",
+    "name": "Deep Terror",
+    "icon": "Eye",
+    "levels": {
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 4,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 20,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 17,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 23,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 20,
+          "move": 4,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 27,
+          "move": 5,
+          "attack": 6,
+          "range": 6
+        }
+      },
+      "0": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-hound",
+    "name": "Hound",
+    "icon": "Dog",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 6,
+          "move": 5,
+          "attack": 2,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 4,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 6,
+          "move": 5,
+          "attack": 2,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 6,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 4,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 8,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 8,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 5,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 11,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 6,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 15,
+          "move": 5,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 6,
+          "attack": 5,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-rending-drake",
+    "name": "Rending Drake",
+    "icon": "Bird",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 4,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 7,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 5,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 6,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 10,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 6,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 11,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 6,
+          "attack": 7,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 14,
+          "move": 5,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 6,
+          "attack": 7,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-spitting-drake",
+    "name": "Spitting Drake",
+    "icon": "Droplet",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 9,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 10,
+          "move": 3,
+          "attack": 5,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 14,
+          "move": 4,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 12,
+          "move": 4,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 16,
+          "move": 4,
+          "attack": 6,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 13,
+          "move": 4,
+          "attack": 5,
+          "range": 4
+        },
+        "elite": {
+          "hp": 19,
+          "move": 4,
+          "attack": 6,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 16,
+          "move": 4,
+          "attack": 5,
+          "range": 4
+        },
+        "elite": {
+          "hp": 21,
+          "move": 4,
+          "attack": 7,
+          "range": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-lurker",
+    "name": "Lurker",
+    "icon": "Bug",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 14,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-harrower-infester",
+    "name": "Harrower Infester",
+    "icon": "Bug",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 17,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 19,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 15,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 22,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 17,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 26,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-sun-demon",
+    "name": "Sun Demon",
+    "icon": "Sun",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 9,
+          "move": 2,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 2,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 16,
+          "move": 3,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 15,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 22,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-black-imp",
+    "name": "Black Imp",
+    "icon": "Flame",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 3,
+          "move": 0,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 4,
+          "move": 0,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 4,
+          "move": 0,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 6,
+          "move": 0,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 5,
+          "move": 0,
+          "attack": 1,
+          "range": 4
+        },
+        "elite": {
+          "hp": 8,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 5,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 8,
+          "move": 0,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 7,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 11,
+          "move": 0,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 9,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 12,
+          "move": 0,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 10,
+          "move": 0,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 14,
+          "move": 0,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 12,
+          "move": 0,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 0,
+          "attack": 4,
+          "range": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-savvas-icestorm",
+    "name": "Savvas Icestorm",
+    "icon": "Snowflake",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 7,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 10,
+          "move": 2,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 12,
+          "move": 2,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 15,
+          "move": 3,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 18,
+          "move": 3,
+          "attack": 4,
+          "range": 6
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 3,
+          "range": 5
+        },
+        "elite": {
+          "hp": 19,
+          "move": 4,
+          "attack": 4,
+          "range": 6
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 21,
+          "move": 4,
+          "attack": 5,
+          "range": 6
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 23,
+          "move": 4,
+          "attack": 6,
+          "range": 6
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 17,
+          "move": 4,
+          "attack": 4,
+          "range": 6
+        },
+        "elite": {
+          "hp": 24,
+          "move": 4,
+          "attack": 6,
+          "range": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-savvas-lavaflow",
+    "name": "Savvas Lavaflow",
+    "icon": "Flame",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 8,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 9,
+          "move": 3,
+          "attack": 2,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 11,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 18,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 14,
+          "move": 3,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 16,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 24,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 18,
+          "move": 3,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 27,
+          "move": 4,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 20,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 30,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 24,
+          "move": 4,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 35,
+          "move": 4,
+          "attack": 6,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-living-corpse",
+    "name": "Living Corpse",
+    "icon": "Skull",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 7,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 1,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 9,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 1,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 10,
+          "move": 1,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 13,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 11,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 13,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 17,
+          "move": 2,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 14,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 2,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 15,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 25,
+          "move": 2,
+          "attack": 6,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-stone-golem",
+    "name": "Stone Golem",
+    "icon": "Mountain",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 10,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 10,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 10,
+          "move": 1,
+          "attack": 3,
+          "range": 0
+        },
+        "elite": {
+          "hp": 11,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 11,
+          "move": 1,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 14,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 11,
+          "move": 1,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 15,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 12,
+          "move": 2,
+          "attack": 4,
+          "range": 0
+        },
+        "elite": {
+          "hp": 17,
+          "move": 2,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 13,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 19,
+          "move": 3,
+          "attack": 6,
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 16,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 20,
+          "move": 3,
+          "attack": 7,
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 16,
+          "move": 2,
+          "attack": 5,
+          "range": 0
+        },
+        "elite": {
+          "hp": 21,
+          "move": 3,
+          "attack": 7,
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-vermling-shaman",
+    "name": "Vermling Shaman",
+    "icon": "Wand2",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 2,
+          "move": 2,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 3,
+          "move": 3,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 2,
+          "move": 2,
+          "attack": 1,
+          "range": 3
+        },
+        "elite": {
+          "hp": 3,
+          "move": 3,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 3,
+          "move": 2,
+          "attack": 1,
+          "range": 4
+        },
+        "elite": {
+          "hp": 4,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 3,
+          "move": 2,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 5,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 3,
+          "move": 3,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 5,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 4,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 6,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 5,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 6,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 7,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 8,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-inox-archer",
+    "name": "Inox Archer",
+    "icon": "Target",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 5,
+          "move": 2,
+          "attack": 2,
+          "range": 2
+        },
+        "elite": {
+          "hp": 7,
+          "move": 2,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 8,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 8,
+          "move": 2,
+          "attack": 2,
+          "range": 3
+        },
+        "elite": {
+          "hp": 11,
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 9,
+          "move": 2,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 13,
+          "move": 2,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 10,
+          "move": 3,
+          "attack": 3,
+          "range": 3
+        },
+        "elite": {
+          "hp": 14,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 3,
+          "range": 4
+        },
+        "elite": {
+          "hp": 17,
+          "move": 3,
+          "attack": 4,
+          "range": 5
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 12,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 19,
+          "move": 3,
+          "attack": 5,
+          "range": 5
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 15,
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        },
+        "elite": {
+          "hp": 23,
+          "move": 3,
+          "attack": 5,
+          "range": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-inox-bodyguard",
+    "name": "Inox Bodyguard",
+    "icon": "ShieldCheck",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": "6xC",
+          "move": 2,
+          "attack": "C",
+          "range": 0
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": "7xC",
+          "move": 2,
+          "attack": "1+C",
+          "range": 0
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": "9xC",
+          "move": 2,
+          "attack": "1+C",
+          "range": 0
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": "10xC",
+          "move": 3,
+          "attack": "2+C",
+          "range": 0
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": "11xC",
+          "move": 3,
+          "attack": "2+C",
+          "range": 0
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": "13xC",
+          "move": 3,
+          "attack": "3+C",
+          "range": 0
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": "15xC",
+          "move": 4,
+          "attack": "3+C",
+          "range": 0
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": "17xC",
+          "move": 4,
+          "attack": "4+C",
+          "range": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-ancient-artillery",
+    "name": "Ancient Artillery",
+    "icon": "Bomb",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": 4,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 7,
+          "move": 0,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": 6,
+          "move": 0,
+          "attack": 2,
+          "range": 4
+        },
+        "elite": {
+          "hp": 9,
+          "move": 0,
+          "attack": 3,
+          "range": 5
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": 7,
+          "move": 0,
+          "attack": 2,
+          "range": 5
+        },
+        "elite": {
+          "hp": 11,
+          "move": 0,
+          "attack": 3,
+          "range": 6
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": 8,
+          "move": 0,
+          "attack": 3,
+          "range": 5
+        },
+        "elite": {
+          "hp": 13,
+          "move": 0,
+          "attack": 4,
+          "range": 6
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": 9,
+          "move": 0,
+          "attack": 4,
+          "range": 5
+        },
+        "elite": {
+          "hp": 13,
+          "move": 0,
+          "attack": 4,
+          "range": 6
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": 11,
+          "move": 0,
+          "attack": 4,
+          "range": 6
+        },
+        "elite": {
+          "hp": 15,
+          "move": 0,
+          "attack": 4,
+          "range": 7
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": 14,
+          "move": 0,
+          "attack": 4,
+          "range": 6
+        },
+        "elite": {
+          "hp": 16,
+          "move": 0,
+          "attack": 5,
+          "range": 7
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": 16,
+          "move": 0,
+          "attack": 4,
+          "range": 7
+        },
+        "elite": {
+          "hp": 20,
+          "move": 0,
+          "attack": 5,
+          "range": 7
+        }
+      }
+    }
+  },
+  {
+    "id": "gh-giant-ooze",
+    "name": "Giant Ooze",
+    "icon": "Droplets",
+    "levels": {
+      "0": {
+        "normal": {
+          "hp": "8xC",
+          "move": 1,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "1": {
+        "normal": {
+          "hp": "9xC",
+          "move": 1,
+          "attack": 2,
+          "range": 3
+        }
+      },
+      "2": {
+        "normal": {
+          "hp": "11xC",
+          "move": 1,
+          "attack": 3,
+          "range": 3
+        }
+      },
+      "3": {
+        "normal": {
+          "hp": "11xC",
+          "move": 2,
+          "attack": 3,
+          "range": 4
+        }
+      },
+      "4": {
+        "normal": {
+          "hp": "13xC",
+          "move": 2,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "5": {
+        "normal": {
+          "hp": "15xC",
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "6": {
+        "normal": {
+          "hp": "16xC",
+          "move": 3,
+          "attack": 4,
+          "range": 4
+        }
+      },
+      "7": {
+        "normal": {
+          "hp": "18xC",
+          "move": 3,
+          "attack": 5,
+          "range": 4
+        }
+      }
+    }
+  }
+]
