@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, X, Users, Ghost, Swords } from 'lucide-react';
+import { Plus, X, Users, Ghost, Swords, Crown } from 'lucide-react';
 import MonsterIcon from '../components/MonsterIcon';
 import PWAInstallBanner from '../components/PWAInstallBanner';
 import monstersData from '../data/monsters.json';
@@ -106,12 +106,17 @@ function PlayerSetupCard({ onAdd }) {
   );
 }
 
+const regularMonsters = monstersData.filter((m) => !m.isBoss);
+const bossMonsters = monstersData.filter((m) => m.isBoss);
+
 function MonsterSetupCard({ onAdd, scenarioLevel }) {
   const [selectedId, setSelectedId] = useState('');
   const [normal, setNormal] = useState(1);
   const [elite, setElite] = useState(0);
+  const [tab, setTab] = useState('regular');
 
-  const selected = monstersData.find((m) => m.id === selectedId) || null;
+  const sourceList = tab === 'boss' ? bossMonsters : regularMonsters;
+  const selected = sourceList.find((m) => m.id === selectedId) || null;
 
   const getStats = (m, type) => {
     const lvl = String(Math.min(scenarioLevel, 7));
@@ -126,13 +131,14 @@ function MonsterSetupCard({ onAdd, scenarioLevel }) {
       monsterId: selected.id,
       monsterName: selected.name,
       icon: selected.icon,
-      normalCount: normal,
-      eliteCount: elite,
+      isBoss: selected.isBoss,
+      normalCount: selected.isBoss ? normal : normal,
+      eliteCount: selected.isBoss ? 0 : elite,
       normalHp: ns.hp,
       eliteHp: es.hp,
     });
     setSelectedId('');
-    setNormal(1);
+    setNormal(selected.isBoss ? 1 : 1);
     setElite(0);
   };
 
@@ -146,12 +152,32 @@ function MonsterSetupCard({ onAdd, scenarioLevel }) {
         <h3 className="text-sm font-bold text-gray-300 font-display">Add Monster Group</h3>
       </div>
 
+      {/* Tab toggle */}
+      <div className="flex gap-1 bg-[#0f1219] rounded-xl p-1">
+        <button
+          onClick={() => { setTab('regular'); setSelectedId(''); }}
+          className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
+            tab === 'regular' ? 'bg-blood/80 text-white' : 'text-gray-500'
+          }`}
+        >
+          Monsters
+        </button>
+        <button
+          onClick={() => { setTab('boss'); setSelectedId(''); }}
+          className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+            tab === 'boss' ? 'bg-gold text-black' : 'text-gray-500'
+          }`}
+        >
+          <Crown className="w-3 h-3" /> Boss
+        </button>
+      </div>
+
       <ComboBox
-        options={monstersData}
+        options={sourceList}
         value={selectedId}
         onChange={setSelectedId}
-        placeholder="Select monster type..."
-        icon={<Ghost className="w-4 h-4" />}
+        placeholder={tab === 'boss' ? 'Select boss...' : 'Select monster type...'}
+        icon={tab === 'boss' ? <Crown className="w-4 h-4" /> : <Ghost className="w-4 h-4" />}
       />
 
       {selected && (
@@ -160,43 +186,65 @@ function MonsterSetupCard({ onAdd, scenarioLevel }) {
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col gap-3"
         >
-          <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl
-                          bg-blood/10 border border-blood/30">
-            <span className="w-9 h-9 rounded-xl bg-blood/20 flex items-center justify-center">
-              <MonsterIcon icon={selected.icon} className="w-5 h-5 text-blood-light" />
+          <div className={`flex items-center gap-3 px-3 py-2.5 rounded-xl ${
+            selected.isBoss ? 'bg-gold/10 border border-gold/30' : 'bg-blood/10 border border-blood/30'
+          }`}>
+            <span className={`w-9 h-9 rounded-xl flex items-center justify-center ${
+              selected.isBoss ? 'bg-gold/20' : 'bg-blood/20'
+            }`}>
+              <MonsterIcon icon={selected.icon} className={`w-5 h-5 ${selected.isBoss ? 'text-gold' : 'text-blood-light'}`} />
             </span>
             <div className="flex-1">
-              <p className="text-sm font-semibold text-blood-light">{selected.name}</p>
+              <div className="flex items-center gap-2">
+                <p className={`text-sm font-semibold ${selected.isBoss ? 'text-gold' : 'text-blood-light'}`}>{selected.name}</p>
+                {selected.isBoss && (
+                  <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-gold/20 text-gold border border-gold/30">BOSS</span>
+                )}
+              </div>
               <p className="text-[11px] text-gray-500">
-                Lvl {scenarioLevel} Stats: <span className="text-white font-mono">{ns?.hp}</span> HP (N) / <span className="text-gold font-mono">{es?.hp}</span> HP (E)
+                Lvl {scenarioLevel}: <span className="text-white font-mono">{ns?.hp}</span> HP
+                {!selected.isBoss && <> (N) / <span className="text-gold font-mono">{es?.hp}</span> HP (E)</>}
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl
-                            bg-void/50 border border-border/50">
-              <span className="text-xs text-gray-500 whitespace-nowrap">Normal</span>
-              <input
-                type="number" min={0} max={20} value={normal}
-                onChange={(e) => setNormal(Number(e.target.value))}
-                className="flex-1 w-0 bg-transparent text-center text-white text-sm
-                           font-mono outline-none"
-              />
-            </div>
-            <div className="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl
-                            bg-gold/10 border border-gold/40">
-              <span className="text-xs text-gold whitespace-nowrap">Elite</span>
-              <input
-                type="number" min={0} max={20} value={elite}
-                onChange={(e) => setElite(Number(e.target.value))}
-                className="flex-1 w-0 bg-transparent text-center text-gold text-sm
-                           font-mono outline-none"
-              />
-            </div>
+            {!selected.isBoss && (
+              <>
+                <div className="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl
+                                bg-void/50 border border-border/50">
+                  <span className="text-xs text-gray-500 whitespace-nowrap">Normal</span>
+                  <input
+                    type="number" min={0} max={20} value={normal}
+                    onChange={(e) => setNormal(Number(e.target.value))}
+                    className="flex-1 w-0 bg-transparent text-center text-white text-sm font-mono outline-none"
+                  />
+                </div>
+                <div className="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl
+                                bg-gold/10 border border-gold/40">
+                  <span className="text-xs text-gold whitespace-nowrap">Elite</span>
+                  <input
+                    type="number" min={0} max={20} value={elite}
+                    onChange={(e) => setElite(Number(e.target.value))}
+                    className="flex-1 w-0 bg-transparent text-center text-gold text-sm font-mono outline-none"
+                  />
+                </div>
+              </>
+            )}
+            {selected.isBoss && (
+              <div className="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl bg-gold/10 border border-gold/40">
+                <Crown className="w-3 h-3 text-gold" />
+                <span className="text-xs text-gold whitespace-nowrap">Count</span>
+                <input
+                  type="number" min={1} max={4} value={normal}
+                  onChange={(e) => setNormal(Number(e.target.value))}
+                  className="flex-1 w-0 bg-transparent text-center text-gold text-sm font-mono outline-none"
+                />
+              </div>
+            )}
             <button
               onClick={add}
-              className="px-6 rounded-xl bg-gold text-black text-sm
+              className="px-6 py-3 rounded-xl bg-gold text-black text-sm
                          font-bold active:scale-95 transition-transform touch-manipulation shadow-lg shadow-gold/20"
             >Add</button>
           </div>
@@ -316,32 +364,44 @@ export default function Setup() {
                 {monsterTypes.map((mt) => {
                   const group = entities.filter((e) => e.monsterType === mt);
                   const first = group[0];
+                  const isBoss = first.isBoss;
                   return (
-                    <motion.div 
+                    <motion.div
                       layout
-                      key={mt} 
-                      className="p-3 rounded-xl bg-void/60 border border-border/40"
+                      key={mt}
+                      className={`p-3 rounded-xl border ${
+                        isBoss
+                          ? 'bg-gold/5 border-gold/20'
+                          : 'bg-void/60 border-border/40'
+                      }`}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <span className="text-lg">
-                          <MonsterIcon icon={first.icon} className={`w-6 h-6 text-blood-light`} />
+                        <span className={`w-8 h-8 rounded-lg flex items-center justify-center ${
+                          isBoss ? 'bg-gold/20' : 'bg-blood/20'
+                        }`}>
+                          <MonsterIcon icon={first.icon} className={`w-5 h-5 ${isBoss ? 'text-gold' : 'text-blood-light'}`} />
                         </span>
                         <span className="flex-1 text-sm font-semibold text-gray-200 truncate">
                           {first.monsterName}
                         </span>
+                        {isBoss && (
+                          <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-gold/20 text-gold border border-gold/30">BOSS</span>
+                        )}
                         <button onClick={() => group.forEach((e) => removeEntity(e.id))}
                           className="p-1 text-gray-600 hover:text-blood-light transition-colors ml-1">
                           <X className="w-4 h-4" />
                         </button>
                       </div>
-                      <div className="flex flex-wrap gap-1.5 pl-8">
+                      <div className="flex flex-wrap gap-1.5 pl-11">
                         {group.map((e) => (
                           <span key={e.id}
                             className={`text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-tighter
                               ${e.isElite
                                 ? 'bg-gold/20 text-gold border border-gold/30'
+                                : isBoss
+                                ? 'bg-gold/10 text-gold/70 border border-gold/20'
                                 : 'bg-void text-gray-500 border border-border/30'}`}>
-                            {e.isElite ? 'Elite' : ''}#{e.standeeNumber}
+                            {e.isElite ? 'Elite' : isBoss ? '👑' : ''}#{e.standeeNumber}
                           </span>
                         ))}
                       </div>

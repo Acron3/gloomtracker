@@ -11,17 +11,52 @@
       {
         "monsterId": "bandit-guard",
         "counts": {
-          "2": { "normal": 2, "elite": 0 },
-          "3": { "normal": 3, "elite": 0 },
-          "4": { "normal": 2, "elite": 1 }
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 6,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
         }
       },
       {
         "monsterId": "bandit-archer",
         "counts": {
-          "2": { "normal": 1, "elite": 0 },
-          "3": { "normal": 2, "elite": 0 },
-          "4": { "normal": 2, "elite": 0 }
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
         }
       }
     ]
@@ -33,17 +68,52 @@
       {
         "monsterId": "bandit-archer",
         "counts": {
-          "2": { "normal": 1, "elite": 0 },
-          "3": { "normal": 1, "elite": 1 },
-          "4": { "normal": 0, "elite": 2 }
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
         }
       },
       {
-        "monsterId": "living-bones",
+        "monsterId": "bandit-commander",
         "counts": {
-          "2": { "normal": 1, "elite": 0 },
-          "3": { "normal": 2, "elite": 0 },
-          "4": { "normal": 2, "elite": 1 }
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 8,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 6
+          }
         }
       }
     ]
@@ -53,19 +123,54 @@
     "name": "3: Inox Encampment",
     "monsters": [
       {
-        "monsterId": "gh-inox-guard",
+        "monsterId": "inox-archer",
         "counts": {
-          "2": { "normal": 2, "elite": 1 },
-          "3": { "normal": 3, "elite": 1 },
-          "4": { "normal": 4, "elite": 1 }
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 7,
+            "elite": 1
+          }
         }
       },
       {
-        "monsterId": "gh-inox-archer",
+        "monsterId": "inox-guard",
         "counts": {
-          "2": { "normal": 2, "elite": 0 },
-          "3": { "normal": 2, "elite": 1 },
-          "4": { "normal": 3, "elite": 1 }
+          "2": {
+            "normal": 7,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 8,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
         }
       }
     ]
@@ -75,19 +180,310 @@
     "name": "4: Crypt of the Damned",
     "monsters": [
       {
-        "monsterId": "gh-living-bones",
+        "monsterId": "bandit-archer",
         "counts": {
-          "2": { "normal": 2, "elite": 0 },
-          "3": { "normal": 3, "elite": 0 },
-          "4": { "normal": 2, "elite": 1 }
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
         }
       },
       {
-        "monsterId": "gh-bandit-archer",
+        "monsterId": "living-bones",
         "counts": {
-          "2": { "normal": 1, "elite": 1 },
-          "3": { "normal": 2, "elite": 1 },
-          "4": { "normal": 2, "elite": 2 }
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "5: Ruinous Crypt",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "6: Decaying Crypt",
+    "monsters": [
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 5,
+            "elite": 3
+          },
+          "4": {
+            "normal": 8,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 8,
+            "elite": 1
+          },
+          "4": {
+            "normal": 8,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "7: Vibrant Grotto",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 5,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 8,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
         }
       }
     ]
@@ -97,19 +493,441 @@
     "name": "8: Gloomhaven Warehouse",
     "monsters": [
       {
-        "monsterId": "gh-living-bones",
+        "monsterId": "living-bones",
         "counts": {
-          "2": { "normal": 1, "elite": 1 },
-          "3": { "normal": 2, "elite": 1 },
-          "4": { "normal": 2, "elite": 2 }
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
         }
       },
       {
-        "monsterId": "gh-living-corpse",
+        "monsterId": "living-corpse",
         "counts": {
-          "2": { "normal": 2, "elite": 0 },
-          "3": { "normal": 3, "elite": 0 },
-          "4": { "normal": 2, "elite": 1 }
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "inox-bodyguard",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "9: Diamond Mine",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "merciless-overseer",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 3
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 4,
+            "elite": 6
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "10: Plane of Elemental Power",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "11: Gloomhaven Square A",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 7,
+            "elite": 2
+          },
+          "3": {
+            "normal": 8,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 5
+          },
+          "3": {
+            "normal": 8,
+            "elite": 6
+          },
+          "4": {
+            "normal": 8,
+            "elite": 7
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 7,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 10,
+            "elite": 0
+          },
+          "3": {
+            "normal": 7,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "captain-of-the-guard",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "12: Gloomhaven Square B",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 6,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 3
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 2
+          },
+          "3": {
+            "normal": 7,
+            "elite": 2
+          },
+          "4": {
+            "normal": 8,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 12,
+            "elite": 1
+          },
+          "3": {
+            "normal": 12,
+            "elite": 1
+          },
+          "4": {
+            "normal": 13,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "jekserah",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "13: Temple of the Seer",
+    "monsters": [
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
         }
       }
     ]
@@ -119,19 +937,5826 @@
     "name": "14: Frozen Hollow",
     "monsters": [
       {
-        "monsterId": "gh-hound",
+        "monsterId": "hound",
         "counts": {
-          "2": { "normal": 2, "elite": 1 },
-          "3": { "normal": 3, "elite": 1 },
-          "4": { "normal": 4, "elite": 1 }
+          "2": {
+            "normal": 5,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
         }
       },
       {
-        "monsterId": "gh-living-spirit",
+        "monsterId": "living-spirit",
         "counts": {
-          "2": { "normal": 1, "elite": 0 },
-          "3": { "normal": 2, "elite": 0 },
-          "4": { "normal": 2, "elite": 1 }
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 6,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "15: Shrine of Strength",
+    "monsters": [
+      {
+        "monsterId": "savvas-icestorm",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 1,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "16: Mountain Pass",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "inox-archer",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "17: Lost Island",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 7,
+            "elite": 4
+          },
+          "3": {
+            "normal": 11,
+            "elite": 5
+          },
+          "4": {
+            "normal": 10,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-shaman",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 0,
+            "elite": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "18: Abandoned Sewers",
+    "monsters": [
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 3
+          },
+          "3": {
+            "normal": 6,
+            "elite": 4
+          },
+          "4": {
+            "normal": 6,
+            "elite": 7
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 6,
+            "elite": 3
+          },
+          "4": {
+            "normal": 5,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 2
+          },
+          "3": {
+            "normal": 6,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "19: Forgotten Crypt",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "20: Necromancer's Sanctum",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "jekserah",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "21: Infernal Throne",
+    "monsters": [
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "prime-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "22: Temple of the Elements",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "23: Deep Ruins",
+    "monsters": [
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "24: Echo Chamber",
+    "monsters": [
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 3
+          },
+          "3": {
+            "normal": 5,
+            "elite": 4
+          },
+          "4": {
+            "normal": 6,
+            "elite": 6
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 6,
+            "elite": 1
+          },
+          "3": {
+            "normal": 7,
+            "elite": 3
+          },
+          "4": {
+            "normal": 6,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "25: Icecrag Ascent",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "26: Ancient Cistern",
+    "monsters": [
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 5,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "27: Ruinous Rift",
+    "monsters": [
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 3
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "28: Outer Ritual Chamber",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 6
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "29: Sanctuary of Gloom",
+    "monsters": [
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 3
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 8,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "30: Shrine of the Depths",
+    "monsters": [
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "name": "31: Plane of the Night",
+    "monsters": [
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 1
+          },
+          "3": {
+            "normal": 7,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "32: Decrepit Wood",
+    "monsters": [
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 8,
+            "elite": 1
+          },
+          "3": {
+            "normal": 9,
+            "elite": 4
+          },
+          "4": {
+            "normal": 8,
+            "elite": 6
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 3
+          },
+          "3": {
+            "normal": 3,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "name": "33: Savvas Armory",
+    "monsters": [
+      {
+        "monsterId": "savvas-icestorm",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "savvas-lavaflow",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "34: Scorched Summit",
+    "monsters": [
+      {
+        "monsterId": "elder-drake",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "name": "35: Gloomhaven Battlements A",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 4
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 0,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "captain-of-the-guard",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "name": "36: Gloomhaven Battlements B",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "prime-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "name": "37: Doom Trench",
+    "monsters": [
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 7,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "name": "38: Slave Pens",
+    "monsters": [
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 3
+          },
+          "4": {
+            "normal": 3,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "inox-archer",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "name": "39: Treacherous Divide",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "name": "40: Ancient Defense Network",
+    "monsters": [
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 6,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "name": "41: Timeworn Tomb",
+    "monsters": [
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "name": "42: Realm of the Voice",
+    "monsters": [
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "name": "43: Drake Nest",
+    "monsters": [
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 8,
+            "elite": 0
+          },
+          "3": {
+            "normal": 11,
+            "elite": 0
+          },
+          "4": {
+            "normal": 11,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 0
+          },
+          "3": {
+            "normal": 7,
+            "elite": 0
+          },
+          "4": {
+            "normal": 9,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "name": "44: Tribal Assault",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "inox-archer",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 0,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 9,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "name": "45: Rebel Swamp",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "name": "46: Nightmare Peak",
+    "monsters": [
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "savvas-icestorm",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "winged-horror",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "name": "47: Lair of the Unseeing Eye",
+    "monsters": [
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "the-sightless-eye",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "name": "48: Shadow Weald",
+    "monsters": [
+      {
+        "monsterId": "dark-rider",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "name": "49: Rebel's Stand",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 3
+          },
+          "4": {
+            "normal": 1,
+            "elite": 6
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 2
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "siege-cannon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "name": "50: Ghost Fortress",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "name": "51: The Void",
+    "monsters": [
+      {
+        "monsterId": "the-gloom",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "name": "52: Noxious Cellar",
+    "monsters": [
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 5,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 3
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 4,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-shaman",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "name": "53: Crypt Basement",
+    "monsters": [
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 4
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 7,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 7,
+            "elite": 0
+          },
+          "3": {
+            "normal": 7,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "name": "54: Palace of Ice",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "name": "55: Foggy Thicket",
+    "monsters": []
+  },
+  {
+    "id": "56",
+    "name": "56: Bandit's Wood",
+    "monsters": [
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 7,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "name": "57: Investigation",
+    "monsters": [
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "name": "58: Bloody Shack",
+    "monsters": [
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "the-harvester",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "name": "59: Forgotten Grove",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 7,
+            "elite": 2
+          },
+          "3": {
+            "normal": 6,
+            "elite": 4
+          },
+          "4": {
+            "normal": 6,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "name": "60: Alchemy Lab",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 4,
+            "elite": 6
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "name": "61: Fading Lighthouse",
+    "monsters": [
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 2
+          },
+          "3": {
+            "normal": 5,
+            "elite": 4
+          },
+          "4": {
+            "normal": 2,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "62: Pit of Souls",
+    "monsters": [
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "hungry-soul",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "name": "63: Magma Pit",
+    "monsters": [
+      {
+        "monsterId": "inox-archer",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 5,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "name": "64: Underwater Lagoon",
+    "monsters": [
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 5,
+            "elite": 2
+          },
+          "3": {
+            "normal": 4,
+            "elite": 4
+          },
+          "4": {
+            "normal": 2,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 7,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "name": "65: Sulfur Mine",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 6,
+            "elite": 0
+          },
+          "3": {
+            "normal": 9,
+            "elite": 2
+          },
+          "4": {
+            "normal": 8,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 5
+          },
+          "3": {
+            "normal": 10,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 7
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "name": "66: Clockwork Cove",
+    "monsters": [
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "name": "67: Arcane Library",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "68: Toxic Moor",
+    "monsters": [
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "living-corpse",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "rending-drake",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "69: Well of the Unfortunate",
+    "monsters": [
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 6,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 6,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-shaman",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "70: Chained Isle",
+    "monsters": [
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 7,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 7,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "name": "71: Windswept Highlands",
+    "monsters": [
+      {
+        "monsterId": "spitting-drake",
+        "counts": {
+          "2": {
+            "normal": 6,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "72: Oozing Grove",
+    "monsters": [
+      {
+        "monsterId": "forest-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 5,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "73: Rockslide Ridge",
+    "monsters": [
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "inox-archer",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 5,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "inox-shaman",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "74: Merchant Ship",
+    "monsters": [
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 6,
+            "elite": 0
+          },
+          "4": {
+            "normal": 6,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "75: Overgrown Graveyard",
+    "monsters": [
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "76: Harrower Hive",
+    "monsters": [
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 7,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "harrower-infester",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "living-bones",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "name": "77: Vault of Secrets",
+    "monsters": [
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 2
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "name": "78: Sacrifice Pit",
+    "monsters": [
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 4
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "name": "79: Lost Temple",
+    "monsters": [
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 1,
+            "elite": 3
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "the-betrayer",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "name": "80: Vigil Keep",
+    "monsters": [
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 3
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "city-archer",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "city-guard",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 7,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 5,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "81: Temple of the Eclipse",
+    "monsters": [
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "ancient-artillery",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "the-colorless",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "82: Burning Mountain",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "stone-golem",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "83: Shadows Within",
+    "monsters": [
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 4
+          },
+          "3": {
+            "normal": 5,
+            "elite": 5
+          },
+          "4": {
+            "normal": 2,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "name": "84: Crystalline Cave",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "name": "85: Sun Temple",
+    "monsters": [
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 5
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "sun-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 3,
+            "elite": 3
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "name": "86: Harried Village",
+    "monsters": [
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 0
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-shaman",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 4,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "name": "87: Corrupted Cove",
+    "monsters": [
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "black-imp",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "giant-ooze",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 3,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "name": "88: Plane of Water",
+    "monsters": [
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 2,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "ooze",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "lurker-king",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "name": "89: Syndicate Hideout",
+    "monsters": [
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 7,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "cultist",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 1,
+            "elite": 3
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "giant-viper",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 2
+          },
+          "3": {
+            "normal": 6,
+            "elite": 3
+          },
+          "4": {
+            "normal": 6,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "name": "90: Demonic Rift",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 4,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "wind-demon",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 5,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "night-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "name": "91: Wild Melee",
+    "monsters": [
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 5
+          },
+          "3": {
+            "normal": 5,
+            "elite": 5
+          },
+          "4": {
+            "normal": 4,
+            "elite": 7
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 10,
+            "elite": 1
+          },
+          "3": {
+            "normal": 10,
+            "elite": 2
+          },
+          "4": {
+            "normal": 10,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 4,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 2
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 3
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "name": "92: Back Alley Brawl",
+    "monsters": [
+      {
+        "monsterId": "bandit-archer",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 4,
+            "elite": 2
+          },
+          "4": {
+            "normal": 2,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "bandit-guard",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 4,
+            "elite": 0
+          },
+          "4": {
+            "normal": 5,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "inox-guard",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 2
+          },
+          "3": {
+            "normal": 1,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "savvas-lavaflow",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 1
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "name": "93: Sunken Vessel",
+    "monsters": [
+      {
+        "monsterId": "lurker",
+        "counts": {
+          "2": {
+            "normal": 3,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 2
+          },
+          "4": {
+            "normal": 4,
+            "elite": 3
+          }
+        }
+      },
+      {
+        "monsterId": "frost-demon",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 1
+          },
+          "4": {
+            "normal": 0,
+            "elite": 2
+          }
+        }
+      },
+      {
+        "monsterId": "living-spirit",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 5,
+            "elite": 1
+          },
+          "4": {
+            "normal": 6,
+            "elite": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "name": "94: Vermling Nest",
+    "monsters": [
+      {
+        "monsterId": "hound",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 2,
+            "elite": 2
+          },
+          "4": {
+            "normal": 1,
+            "elite": 4
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-scout",
+        "counts": {
+          "2": {
+            "normal": 10,
+            "elite": 2
+          },
+          "3": {
+            "normal": 11,
+            "elite": 5
+          },
+          "4": {
+            "normal": 8,
+            "elite": 8
+          }
+        }
+      },
+      {
+        "monsterId": "cave-bear",
+        "counts": {
+          "2": {
+            "normal": 1,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 1
+          }
+        }
+      },
+      {
+        "monsterId": "vermling-shaman",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 1
+          },
+          "3": {
+            "normal": 3,
+            "elite": 1
+          },
+          "4": {
+            "normal": 3,
+            "elite": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "name": "95: Payment Due",
+    "monsters": [
+      {
+        "monsterId": "earth-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "flame-demon",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 1,
+            "elite": 0
+          },
+          "4": {
+            "normal": 1,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "prime-lieutenant",
+        "counts": {
+          "2": {
+            "normal": 0,
+            "elite": 0
+          },
+          "3": {
+            "normal": 0,
+            "elite": 0
+          },
+          "4": {
+            "normal": 0,
+            "elite": 0
+          }
+        }
+      },
+      {
+        "monsterId": "deep-terror",
+        "counts": {
+          "2": {
+            "normal": 2,
+            "elite": 0
+          },
+          "3": {
+            "normal": 2,
+            "elite": 1
+          },
+          "4": {
+            "normal": 1,
+            "elite": 3
+          }
         }
       }
     ]
