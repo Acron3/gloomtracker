@@ -21,12 +21,6 @@ Track initiative order, HP, status conditions, elemental infusions, and scenario
 
 ---
 
-## Screenshots
-
-> _Mobile-first dark UI with glassmorphism design._
-
----
-
 ## Tech Stack
 
 | Layer     | Technology                                                           |
@@ -61,7 +55,7 @@ npm install
 npm run dev
 ```
 
-Open [https://gloomtracker.vercel.app](https://gloomtracker.vercel.app) in your browser.
+OR Open [https://gloomtracker.vercel.app](https://gloomtracker.vercel.app) in your browser.
 
 ### Build for Production
 
